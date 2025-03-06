@@ -1,0 +1,21 @@
+[('MethodDeclaration', 0.07072702380952381),
+ ('IfStatement', 0.035755),
+ ('ReturnStatement', 0.00665),
+ ('VariableDeclarator', 0.06486),
+ ('StatementExpression', 0.01884)]
+
+[('MethodDeclaration', -0.009124225694444443),
+ ('ForStatement', -0.008785000000000001),
+ ('ReturnStatement', -0.01719),
+ ('VariableDeclarator', -0.00038000000000000013),
+ ('VariableDeclarator', -0.01115),
+ ('StatementExpression', -0.00043458333333333196),
+ ('StatementExpression', -0.00043458333333333196),
+ ('VariableDeclarator', -0.00043458333333333196)]
+
+[('MethodDeclaration', -0.0660007763671875),
+ ('ForStatement', -0.012781171875),
+ ('ReturnStatement', -0.0225575),
+ ('VariableDeclarator', -0.0030048437499999997),
+ ('VariableDeclarator', -0.01684),
+ ('StatementExpression', -0.04821875)]

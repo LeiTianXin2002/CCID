@@ -1,0 +1,47 @@
+CC - Coordinating conjunction (并列连词)
+CD - Cardinal number (基数词)
+DT - Determiner (限定词)
+EX - Existential there (存在句)
+FW - Foreign word (外来词)
+IN - Preposition or subordinating conjunction (介词或从属连词)
+JJ - Adjective (形容词)
+JJR - Adjective, comparative (形容词比较级)
+JJS - Adjective, superlative (形容词最高级)
+LS - List item marker (列表标记)
+MD - Modal (情态动词)
+NN - Noun, singular or mass (单数或不可数名词)
+NNS - Noun, plural (复数名词)
+NNP - Proper noun, singular (单数专有名词)
+NNPS - Proper noun, plural (复数专有名词)
+PDT - Predeterminer (前限定词)
+POS - Possessive ending (所有格结尾)
+PRP - Personal pronoun (人称代词)
+PRP$ - Possessive pronoun (物主代词)
+RB - Adverb (副词)
+RBR - Adverb, comparative (副词比较级)
+RBS - Adverb, superlative (副词最高级)
+RP - Particle (小品词)
+SYM - Symbol (符号)
+TO - to (不定式标记)
+UH - Interjection (感叹词)
+VB - Verb, base form (动词原形)
+VBD - Verb, past tense (动词过去式)
+VBG - Verb, gerund or present participle (动名词或现在分词)
+VBN - Verb, past participle (动词过去分词)
+VBP - Verb, non-3rd person singular present (动词非第三人称单数现在时)
+VBZ - Verb, 3rd person singular present (动词第三人称单数现在时)
+WDT - Wh-determiner (Wh限定词)
+WP - Wh-pronoun (Wh代词)
+WP$ - Possessive wh-pronoun (Wh所有格代词)
+WRB - Wh-adverb (Wh副词)
+
+# 定义词性标签集合: 名词  动词  形容词 副词 连词 限定词 代词
+tag_groups = {
+        'noun': {'NN', 'NNS', 'NNP', 'NNPS'},
+        'verb': {'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ'},
+        'adjective': {'JJ', 'JJR', 'JJS'},
+        'adverb': {'RB', 'RBR', 'RBS'},
+        'conjunction': {'CC', 'IN'},
+        'determiner': {'DT', 'PDT', 'WDT'},
+        'pronoun': {'PRP', 'PRP$', 'WP', 'WP$'}
+    }
